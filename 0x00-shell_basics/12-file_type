@@ -1,2 +1,2 @@
 #!/bin/bash
-file /tmp/imafile
+readelf -a /tmp/imafile
