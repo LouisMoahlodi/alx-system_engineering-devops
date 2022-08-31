@@ -1,2 +1,6 @@
 #!/bin/bash
+<<<<<<< HEAD
 echo "
+=======
+echo "/home/vagrant/alx-system_engineering-devops/0x00-shell_basics"
+>>>>>>> 860cd98b00c860ec2a3fd63ccbec29ec0e6e7dba
