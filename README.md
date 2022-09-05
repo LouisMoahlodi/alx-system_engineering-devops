@@ -1,1 +1,1 @@
-This Repo is about learning the Shell Basics
+This Repo is for learning about Bash
