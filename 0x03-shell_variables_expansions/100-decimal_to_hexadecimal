@@ -1,0 +1,2 @@
+#!/bin/bash
+printf -v 16 '%x\n'
