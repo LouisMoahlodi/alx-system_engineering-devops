@@ -1,2 +1,2 @@
 #!/bin/bash
-printf "%s\n"{a..z}-{a..z} | grep -v "oo"  #Another way than 'printf ' is to convert whitespaces by using tr into a \n#
+printf "%s\n" {a..z}-{a..z} | grep -v "oo"  #Another way than 'printf ' is to convert whitespaces by using tr into a \n#
