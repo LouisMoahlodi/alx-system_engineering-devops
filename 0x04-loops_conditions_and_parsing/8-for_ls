@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+# Displays the content of the directory 
+# in list format but only after the first dash
+
+for file in *; do
+    if [ -f "$file" ] && [[ $file != .* ]] && [[ $file == *-* ]]; then
+        name=${file#*-}
+        echo "$name"
+    fi
+done
+    
