@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Displays the content of the directory 
-# in list format but only after the first dash
+#   in list format but only after the first dash
 
 # for file in *; do
 #     if [ -f "$file" ] && [[ $file != .* ]] && [[ $file == *-* ]]; then
@@ -10,7 +10,6 @@
 # done
 
 mylist=$(ls)
-
 for i in $mylist; do
   echo "$i" | cut -d '-' -f2
 done
